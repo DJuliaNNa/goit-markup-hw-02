@@ -13,7 +13,7 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
   /* Fonds */
-  --primary-fonds: "Roboto Medium", sans-serif;
+  --primary-fonds: "Roboto", sans-serif;
   --secondary-fond: "Raleway", sans-serif;
 }
 .body {
@@ -47,6 +47,9 @@ color: var(--color-iris);
     font-style: normal;
     color: var(--color-slate);
   }
+.header-contacts:hover{
+    color: var(--color-ocean);
+  }
 .colortext {
     font-family: 'Raleway';
     font-weight: 800;
@@ -59,10 +62,27 @@ color: var(--color-iris);
     color: var(--color-navy-blue);
 }
 
-.btm {
+.btn{
     font-family: "Roboto";
     color: var(--color-white);
     background-color: var(--color-iris);
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: none;
+  
+}
+.btn1:hover {
+    background-color: var(--color-ocean);
+}
+.filter-btn {
+    font-family: "Roboto";
+    color: var(--color-iris);
+    background-color: var(--color-cloud);
 }
 
 /* Heder style */
@@ -83,7 +103,7 @@ color: var(--color-iris);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
     color:var(--color-navy-blue);
 }
 .subtitle {
@@ -100,17 +120,25 @@ color: var(--color-iris);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
-
-.button {
-  font-size: 16px;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  text-decoration: none;
-  text-transform: none;
 }
+.header-nav-item:hover{
+    color: var(--color-ocean);
+}
+.footer {
+   background-color: var(--color-navy-blue);
+}
+.footer-colortext {
+color: var(--color-white);
+}
+.footer-text {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-cloud);
+}
+
 .style-small {
   font-size: 12px;
   font-family: "Roboto";
@@ -121,12 +149,3 @@ color: var(--color-iris);
   text-decoration: none;
   text-transform: none;
 }
-
-.header {
-}
-.header-nav-basic {
-}
-
-.header-nav-item {
-}
-
