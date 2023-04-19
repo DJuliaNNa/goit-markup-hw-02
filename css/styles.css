@@ -86,12 +86,28 @@ body {
 .btn_hero:focus {
   background-color: var(--color-ocean);
 }
-.filter-btn {
-  font-family: "Roboto";
+.btn-portfolio {
+  cursor: pointer;
+  font-family: "Roboto" sans-serif;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
   color: var(--color-iris);
   background-color: var(--color-cloud);
+  width: 116px;
+  height: 48px;
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
 }
-
+.btn-portfolio:hover,
+:focus {
+background-color:var(--color-ocean);
+color: var(--color-white);
+}
+.section-btn{
+  display: flex;
+}
 /* feature */
 .hidden {
   display: none;
