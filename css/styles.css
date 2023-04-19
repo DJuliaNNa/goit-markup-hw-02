@@ -44,13 +44,18 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-iris);
 }
-.header-contacts {
+.contacts {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     font-style: normal;
     color: var(--color-slate);
+
   }
-.header-contacts:hover{
+.contacts:hover,
+.contacts:focus {
     color: var(--color-ocean);
   }
+
 .colortext {
     font-family: 'Raleway';
     font-weight: 800;
@@ -64,7 +69,7 @@ color: var(--color-iris);
 }
 
 .btn{
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto" ;
     color: var(--color-white);
     background-color: var(--color-iris);
     cursor: pointer;
@@ -101,7 +106,7 @@ color: var(--color-iris);
   text-transform: none;
   text-align: center;
   color: var(--color-white);
-  background-color: #2e2f42 ;
+  background-color:var(--color-navy-blue);
 
 }
 .feature-title {
@@ -122,20 +127,8 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
-.section-title {
-    font-family: 'Roboto';
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color:var(--color-navy-blue);
-}
-.subtitle {
-    font-family: 'Roboto';
-    font-size: 20px;
-    line-height: 1.2;
-    color:var(--color-navy-blue);
-}
+
+
 .header-nav-item {
     font-family: 'Roboto';
     font-style: normal;
@@ -145,14 +138,44 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #2E2F42 ;
 }
-.header-nav-item:hover {
-    color: var(--color-ocean);
+.header-nav-item:hover,
+.header-nav-item:focus {
+    color: #404bbf  ;
 }
+.title {
+    background-color: #F4F4FD ;
+    
+}
+
+.section-title {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--color-navy-blue);
+
+}
+.subtitle {
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 1.2;
+    color:var(--color-navy-blue);
+}
+.paragraph {
+    line-height: 1.5;
+    font-size: 16px ;
+    background: #FFFFFF;
+    position: absolute
+}
+
 .footer {
    background-color: var(--color-navy-blue);
 }
 .footer-colortext {
-color: var(--color-white);
+color: #F4F4FD;
 }
 .footer-text {
 font-family: 'Roboto';
