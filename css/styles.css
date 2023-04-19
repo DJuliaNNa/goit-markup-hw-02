@@ -16,7 +16,7 @@
   --primary-fonds: "Roboto",sans-serif;
   --secondary-fond: "Raleway",sans-serif;
 }
-.body {
+body {
   font-family: "Roboto",sans-serif;
   font-size: var(--primary-fonds);
   font-size: 16px;
