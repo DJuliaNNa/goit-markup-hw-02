@@ -28,6 +28,7 @@ body {
 /* Base style */
 .list {
   list-style: none;
+  
 }
 .link {
   text-decoration: none;
@@ -88,7 +89,7 @@ body {
 }
 .btn-portfolio {
   cursor: pointer;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
   line-height: 1.5;
   font-weight: 500;
